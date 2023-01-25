@@ -1,0 +1,38 @@
+:root {
+  --background: #FAFAFA;
+  --card: #F3F2F2;
+  --input: #ededef;
+  --button: #e6e5e5;
+  --hover: #d7d5d5;
+  --label: #8d8688;
+  --text: #574f4d;
+  --subtitle: #403937;
+  --title: #272221;
+  --purple-dark: #4B2995;
+  --purple: #8047F8;
+  --purple-light: #EBE5F9;
+  --yellow-dark: #C47F17;
+  --yellow: #DBAC2C;
+  --yellow-light: #F1E9C9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialised;
+  background-color: var(--gray-600)
+}
+
+body, input, textarea, button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Baloo 2', cursive;
+}
